@@ -11,11 +11,11 @@ export default {
 
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-            },
+            
         },
     },
+    /* instale por defecto darkmode support y esto hace que se vea el ligthmode */
+    darkMode: 'class',
 
     plugins: [forms],
 };
